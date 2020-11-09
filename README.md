@@ -27,3 +27,4 @@
 * https://en.wikipedia.org/wiki/Richard_III_of_England
 * https://en.wikipedia.org/wiki/The_Daughter_of_Time
 * https://www.q1000.ro/challenger/?fbclid=IwAR0Y40aRxWaz7bPx7DdNqWR1jyzefzvRBRGKpCEPgJMuXz-PGkTqzKTqZ5U
+* https://sites.google.com/michalkosinski.com/mypersonality
