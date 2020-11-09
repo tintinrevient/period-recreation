@@ -5,6 +5,7 @@
 - [ ] face
 - [ ] link among color, time and space
 - [ ] link between picture and text
+- [ ] slides retro
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
@@ -25,3 +26,4 @@
 * https://en.wikipedia.org/wiki/Wolf_Hall
 * https://en.wikipedia.org/wiki/Richard_III_of_England
 * https://en.wikipedia.org/wiki/The_Daughter_of_Time
+* https://www.q1000.ro/challenger/?fbclid=IwAR0Y40aRxWaz7bPx7DdNqWR1jyzefzvRBRGKpCEPgJMuXz-PGkTqzKTqZ5U
