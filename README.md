@@ -8,6 +8,7 @@
 - [ ] slides retro
 - [ ] 3d reconstruction
 - [ ] interaction / animation
+- [ ] overlay of info (AR)
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
