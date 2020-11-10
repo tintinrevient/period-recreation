@@ -30,3 +30,9 @@
 * https://en.wikipedia.org/wiki/The_Daughter_of_Time
 * https://www.q1000.ro/challenger/?fbclid=IwAR0Y40aRxWaz7bPx7DdNqWR1jyzefzvRBRGKpCEPgJMuXz-PGkTqzKTqZ5U
 * https://sites.google.com/michalkosinski.com/mypersonality
+* https://www.youtube.com/watch?v=VFdNQc3gVkM
+* https://github.com/davidar/pixelstruct
+* https://www.cs.cornell.edu/~snavely/bundler/
+* https://github.com/snavely/bundler_sfm
+
+
