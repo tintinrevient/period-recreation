@@ -9,6 +9,7 @@
 - [ ] 3d reconstruction
 - [ ] interaction / animation
 - [ ] overlay of info (AR)
+- [ ] contruct a world
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
