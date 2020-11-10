@@ -2,6 +2,7 @@
 
 ## To-Do List
 - [ ] color histogram
+- [ ] color space & distance
 - [ ] face
 - [ ] link among color, time and space
 - [ ] link between picture and text
