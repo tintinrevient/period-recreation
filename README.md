@@ -6,6 +6,8 @@
 - [ ] link among color, time and space
 - [ ] link between picture and text
 - [ ] slides retro
+- [ ] 3d reconstruction
+- [ ] interaction / animation
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
