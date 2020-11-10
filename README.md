@@ -1,6 +1,9 @@
 # Period Recreation
 
 ## To-Do List
+- [ ] background subtraction / mog (OpenCV)
+- [ ] k-means (ML)
+- [ ] color model 
 - [ ] color histogram
 - [ ] color space & distance
 - [ ] face
