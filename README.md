@@ -49,3 +49,5 @@
 * https://github.com/TadasBaltrusaitis/OpenFace/wiki
 * https://npg.si.edu/linked-open-data
 * https://www.npg.org.uk/collections/explore/by-country/europe
+* https://www.npg.org.uk/research/programmes/making-art-in-tudor-britain/matbsearch
+* https://www.npg.org.uk/collections/about/primary-collection/
