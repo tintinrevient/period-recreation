@@ -48,3 +48,4 @@
 * https://cmusatyalab.github.io/openface/
 * https://github.com/TadasBaltrusaitis/OpenFace/wiki
 * https://npg.si.edu/linked-open-data
+* https://www.npg.org.uk/collections/explore/by-country/europe
