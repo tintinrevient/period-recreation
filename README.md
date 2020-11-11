@@ -47,3 +47,4 @@
 * http://objects.library.uu.nl/reader/index.php?obj=1874-188397&lan=en#page//12/14/49/121449348128284261569896751681889560613.jpg/mode/1up
 * https://cmusatyalab.github.io/openface/
 * https://github.com/TadasBaltrusaitis/OpenFace/wiki
+* https://npg.si.edu/linked-open-data
