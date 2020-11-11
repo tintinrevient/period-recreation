@@ -43,3 +43,4 @@
 * http://phototour.cs.washington.edu/
 * http://grail.cs.washington.edu/projects/rome/
 * http://phototour.cs.washington.edu/findingpaths/
+* http://www.gutenberg.org/ebooks/1736
