@@ -40,5 +40,5 @@
 * https://github.com/davidar/pixelstruct
 * https://www.cs.cornell.edu/~snavely/bundler/
 * https://github.com/snavely/bundler_sfm
-
+* http://phototour.cs.washington.edu/
 
