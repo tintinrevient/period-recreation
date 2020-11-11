@@ -54,3 +54,4 @@
 * https://www.npg.org.uk/collections/search/sita-z/
 * https://www.npg.org.uk/collections/collection-catalogues
 * https://docs.opencv.org/master/d1/db7/tutorial_py_histogram_begins.html
+* https://www.cambridgeincolour.com/tutorials/histograms1.htm
