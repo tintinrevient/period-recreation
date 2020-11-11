@@ -41,4 +41,5 @@
 * https://www.cs.cornell.edu/~snavely/bundler/
 * https://github.com/snavely/bundler_sfm
 * http://phototour.cs.washington.edu/
-
+* http://grail.cs.washington.edu/projects/rome/
+* http://phototour.cs.washington.edu/findingpaths/
