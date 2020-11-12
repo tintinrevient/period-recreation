@@ -62,3 +62,6 @@
 * https://gudgud96.github.io/2020/10/17/ismir_2020/
 * https://www.ismir2020.net/
 * https://boblsturm.github.io/aimusic2020/
+* https://dblp.uni-trier.de/db/conf/ismir/index.html
+* https://www.music-ir.org/mirex/wiki/MIREX_HOME
+* https://transactions.ismir.net/
