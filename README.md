@@ -59,3 +59,6 @@
 * http://abcnotation.com/
 * https://thesession.org/
 * https://github.com/IraKorshunova/folk-rnn
+* https://gudgud96.github.io/2020/10/17/ismir_2020/
+* https://www.ismir2020.net/
+* https://boblsturm.github.io/aimusic2020/
