@@ -69,4 +69,3 @@
 * https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.pcolormesh.html
 * https://matplotlib.org/3.1.1/gallery/images_contours_and_fields/pcolor_demo.html#sphx-glr-gallery-images-contours-and-fields-pcolor-demo-py
 * https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.pcolor.html
-* 
