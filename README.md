@@ -65,3 +65,8 @@
 * https://dblp.uni-trier.de/db/conf/ismir/index.html
 * https://www.music-ir.org/mirex/wiki/MIREX_HOME
 * https://transactions.ismir.net/
+* https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
+* https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.pcolormesh.html
+* https://matplotlib.org/3.1.1/gallery/images_contours_and_fields/pcolor_demo.html#sphx-glr-gallery-images-contours-and-fields-pcolor-demo-py
+* https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.pcolor.html
+* 
