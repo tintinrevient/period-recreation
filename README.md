@@ -1,11 +1,11 @@
 # Period Recreation
 
 ## To-Do List
-- [ ] background subtraction / mog (OpenCV)
-- [ ] k-means (ML)
-- [ ] color model 
-- [ ] color histogram
-- [ ] color space & distance
+- [x] background subtraction / mog (OpenCV)
+- [x] k-means (ML)
+- [x] color model 
+- [x] color histogram
+- [x] color space & distance
 - [ ] face
 - [ ] link among color, time and space
 - [ ] link between picture and text
@@ -14,6 +14,9 @@
 - [ ] interaction / animation
 - [ ] overlay of info (AR)
 - [ ] contruct a world
+- [ ] chatbot with the past
+- [ ] 3D avatar / scene / gaming
+- [ ] social network in the past
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
