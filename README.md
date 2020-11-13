@@ -7,6 +7,7 @@
 - [x] color histogram
 - [x] color space & distance
 - [ ] face
+- [ ] HOG
 - [ ] link among color, time and space
 - [ ] link between picture and text: e.g. comic
 - [ ] slides retro
