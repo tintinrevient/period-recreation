@@ -17,6 +17,7 @@
 - [ ] chatbot with the past
 - [ ] 3D avatar / scene / gaming
 - [ ] social network in the past
+- [ ] GAN
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
