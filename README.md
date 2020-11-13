@@ -82,3 +82,4 @@
 * https://galactic.ink/sphere/
 * https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
 * https://matplotlib.org/3.1.1/tutorials/colors/colormaps.html
+* https://www.cs.ubc.ca/~lowe/keypoints/
