@@ -75,3 +75,4 @@
 * https://blog.templatetoaster.com/color-palette-generators/
 * http://paletton.com/#uid=10O0u0kge8V9EiI9UaZl77dqw4X
 * https://galactic.ink/sphere/
+* https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
