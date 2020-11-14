@@ -19,6 +19,7 @@
 - [ ] 3D avatar / scene / gaming
 - [ ] social network in the past
 - [ ] GAN
+- [ ] object recognition to do other things
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
