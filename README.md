@@ -26,6 +26,7 @@
 - [ ] random forest
 - [ ] SVM
 - [ ] object recognition to do other things
+- [ ] where is waldo? + ML
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
