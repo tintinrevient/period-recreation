@@ -86,3 +86,4 @@
 * https://www.cs.ubc.ca/~lowe/keypoints/
 * https://en.wikipedia.org/wiki/Mathematical_morphology
 * https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
+* https://www.learnopencv.com/histogram-of-oriented-gradients/
