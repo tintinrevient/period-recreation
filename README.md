@@ -84,3 +84,4 @@
 * https://matplotlib.org/3.1.1/tutorials/colors/colormaps.html
 * https://www.cs.ubc.ca/~lowe/keypoints/
 * https://en.wikipedia.org/wiki/Mathematical_morphology
+* https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
