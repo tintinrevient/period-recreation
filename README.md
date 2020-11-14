@@ -8,6 +8,9 @@
 - [x] color space & distance
 - [ ] face
 - [x] HOG
+- [x] SIFT
+- [ ] SURF
+- [ ] HAAR
 - [ ] link among color, time and space
 - [ ] link between picture and text: e.g. comic
 - [ ] slides retro
