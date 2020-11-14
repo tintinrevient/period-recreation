@@ -87,3 +87,4 @@
 * https://en.wikipedia.org/wiki/Mathematical_morphology
 * https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
 * https://www.learnopencv.com/histogram-of-oriented-gradients/
+* https://docs.opencv.org/master/da/df5/tutorial_py_sift_intro.html
