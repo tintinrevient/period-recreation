@@ -7,7 +7,7 @@
 - [x] color histogram
 - [x] color space & distance
 - [ ] face
-- [ ] HOG
+- [x] HOG
 - [ ] link among color, time and space
 - [ ] link between picture and text: e.g. comic
 - [ ] slides retro
@@ -19,6 +19,9 @@
 - [ ] 3D avatar / scene / gaming
 - [ ] social network in the past
 - [ ] GAN
+- [ ] ANN
+- [ ] random forest
+- [ ] SVM
 - [ ] object recognition to do other things
 
 ## References
