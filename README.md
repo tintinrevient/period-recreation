@@ -29,6 +29,9 @@
 - [ ] where is waldo? + ML
 - [ ] segmentation vs. decision tree
 
+## Pieces
+* https://en.wikipedia.org/wiki/Kinetic_art
+
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
 * https://www.youtube.com/watch?v=tboRw6CPXjI&feature=emb_title
