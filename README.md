@@ -31,7 +31,8 @@
 
 ## Pieces
 * https://en.wikipedia.org/wiki/Kinetic_art
-* trace the bee / firebugs' woods
+* trace bees / firebugs' woods
+* map of the internet
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
