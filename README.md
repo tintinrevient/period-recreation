@@ -33,6 +33,7 @@
 * https://en.wikipedia.org/wiki/Kinetic_art
 * trace bees / firebugs' woods
 * map of the internet
+* dyes that trace fluid dynamics
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
