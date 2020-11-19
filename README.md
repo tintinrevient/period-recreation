@@ -101,3 +101,7 @@
 * https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
 * https://www.learnopencv.com/histogram-of-oriented-gradients/
 * https://docs.opencv.org/master/da/df5/tutorial_py_sift_intro.html
+* https://www.submarinecablemap.com/
+* https://www.kaspersky.com/blog/amazing-internet-maps/10441/
+* https://www.vox.com/a/internet-maps
+* https://qz.com/798039/how-do-you-make-a-map-of-the-internet/
