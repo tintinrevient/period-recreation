@@ -42,6 +42,8 @@
 * cat在所有国家的画里 所有时间里
   * https://en.wikipedia.org/wiki/Blacksad
   * https://en.wikipedia.org/wiki/Utagawa_Kuniyoshi
+* chindogu
+* MLFlow
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
