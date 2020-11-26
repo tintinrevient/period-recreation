@@ -34,6 +34,14 @@
 * trace bees / firebugs' woods
 * map of the internet
 * dyes that trace fluid dynamics
+* 中国画
+* 浮世绘
+* 漫画 毕加索的漫画
+* infographic
+* 静物画 风物 国际贸易
+* cat在所有国家的画里 所有时间里
+  * https://en.wikipedia.org/wiki/Blacksad
+  * https://en.wikipedia.org/wiki/Utagawa_Kuniyoshi
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
