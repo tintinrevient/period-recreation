@@ -118,3 +118,6 @@
 * https://www.vox.com/a/internet-maps
 * https://qz.com/798039/how-do-you-make-a-map-of-the-internet/
 * https://ars.electronica.art/news/en/
+* https://en.wikipedia.org/wiki/Digital_Scholarship_in_the_Humanities
+* http://llc.oxfordjournals.org/
+* https://eadh.org/conferences
