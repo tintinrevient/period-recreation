@@ -127,3 +127,6 @@
 * https://en.wikipedia.org/wiki/Digital_Scholarship_in_the_Humanities
 * http://llc.oxfordjournals.org/
 * https://eadh.org/conferences
+* http://www.perseus.tufts.edu/hopper/
+* http://mappinggothic.org/
+* http://www.getty.edu/research/tools/provenance/
