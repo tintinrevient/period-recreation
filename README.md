@@ -131,3 +131,5 @@
 * http://www.perseus.tufts.edu/hopper/
 * http://mappinggothic.org/
 * http://www.getty.edu/research/tools/provenance/
+* http://www.vangoghletters.org/vg/context_1.html
+* https://www.gutenberg.org/files/49086/49086-h/49086-h.htm
