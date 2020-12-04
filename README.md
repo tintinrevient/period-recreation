@@ -51,6 +51,7 @@
 * https://link-springer-com.proxy.library.uu.nl/conference/eccv
 * https://visarts.eu/
 * https://eccv2020.eu/workshops/
+* https://www.semanticscholar.org/author/Andrew-Zisserman/1688869
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
