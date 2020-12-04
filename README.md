@@ -46,6 +46,12 @@
 * MLFlow
 * 妖怪 lines
 
+## Papers
+* https://www.robots.ox.ac.uk/~vgg/
+* https://link-springer-com.proxy.library.uu.nl/conference/eccv
+* https://visarts.eu/
+* https://eccv2020.eu/workshops/
+
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
 * https://www.youtube.com/watch?v=tboRw6CPXjI&feature=emb_title
