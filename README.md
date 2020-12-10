@@ -45,6 +45,7 @@
 * chindogu
 * MLFlow
 * 妖怪 lines
+* https://mathworld.wolfram.com/WallpaperGroups.html
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
