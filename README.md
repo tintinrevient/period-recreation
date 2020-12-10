@@ -59,6 +59,7 @@
 * https://www.csail.mit.edu/
 * https://ai.stanford.edu/
 * https://s2020.siggraph.org/
+* https://www.siggraph.org/
 * https://eccv2020.eu/workshops/
 * https://www.robots.ox.ac.uk/~vgg/
 * https://www.media.mit.edu/
