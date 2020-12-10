@@ -54,6 +54,14 @@
 * https://www.semanticscholar.org/author/Andrew-Zisserman/1688869
 * https://arxiv.org/
 * https://dl-acm-org.proxy.library.uu.nl/
+* https://casa2019.sciencesconf.org/
+* http://www.mig2019.website/
+* http://computeranimation.org/
+* http://ieeevr.org/2020/
+* https://iva2020.psy.gla.ac.uk/
+* https://sap.acm.org/2020/
+* http://www.cgs-network.org/cgi20/
+* https://conferences.eg.org/egev20/
 
 ## Following
 * https://www.csail.mit.edu/
