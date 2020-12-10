@@ -69,6 +69,7 @@
 * https://s2020.siggraph.org/
 * https://www.siggraph.org/
 * https://eccv2020.eu/workshops/
+* http://cvpr2020.thecvf.com/
 * https://www.robots.ox.ac.uk/~vgg/
 * https://www.media.mit.edu/
 
