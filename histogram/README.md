@@ -9,13 +9,13 @@ $ python hist.py
 ## Result
 
 <p float="left">
-    <img src="./output/thomas8.png" width=400 />
-    <img src="./output/thomashist.png" width=400 />
+    <img src="./output/thomas8.png" width=250 />
+    <img src="./output/thomashist.png" width=650 />
 </p>
 
 <p float="left">
-    <img src="./output/richard8.png" width=400 />
-    <img src="./output/richardhist.png" width=400 />
+    <img src="./output/richard8.png" width=250 />
+    <img src="./output/richardhist.png" width=650 />
 </p>
 
 ## References
