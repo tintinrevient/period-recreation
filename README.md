@@ -52,6 +52,8 @@
 * https://visarts.eu/
 * https://eccv2020.eu/workshops/
 * https://www.semanticscholar.org/author/Andrew-Zisserman/1688869
+* https://arxiv.org/
+* https://dl-acm-org.proxy.library.uu.nl/
 
 ## Following
 * https://www.csail.mit.edu/
