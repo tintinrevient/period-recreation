@@ -10,12 +10,12 @@ $ python hist.py
 
 <p float="left">
     <img src="./output/thomas8.png" width=300 />
-    <img src="./output/thomashist.png" width=600 />
+    <img src="./output/thomashist.png" width=580 />
 </p>
 
 <p float="left">
     <img src="./output/richard8.png" width=300 />
-    <img src="./output/richardhist.png" width=600 />
+    <img src="./output/richardhist.png" width=580 />
 </p>
 
 ## References
