@@ -53,6 +53,14 @@
 * https://eccv2020.eu/workshops/
 * https://www.semanticscholar.org/author/Andrew-Zisserman/1688869
 
+## Following
+* https://www.csail.mit.edu/
+* https://ai.stanford.edu/
+* https://s2020.siggraph.org/
+* https://eccv2020.eu/workshops/
+* https://www.robots.ox.ac.uk/~vgg/
+* https://www.media.mit.edu/
+
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
 * https://www.youtube.com/watch?v=tboRw6CPXjI&feature=emb_title
