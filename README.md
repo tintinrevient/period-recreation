@@ -21,7 +21,8 @@
 - [ ] chatbot with the past
 - [ ] 3D avatar / scene / gaming
 - [ ] social network in the past
-- [ ] GAN
+- [ ] GAN 与 猫
+- [ ] Optical flow + Van Gogh's "Starry night"
 - [ ] ANN
 - [ ] random forest
 - [ ] SVM
