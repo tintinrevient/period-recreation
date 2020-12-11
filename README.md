@@ -74,7 +74,7 @@
 * https://www.robots.ox.ac.uk/~vgg/
 * https://www.media.mit.edu/
 * https://audio.dev/
-* https://ganpaint.io/
+* https://mitibmwatsonailab.mit.edu/
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
