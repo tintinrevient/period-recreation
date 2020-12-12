@@ -32,3 +32,4 @@ These local motion signals are aligned and averaged into a single, 1D motion sig
 * http://home.messiah.edu/~barrett/mpg/mpg.html
 * https://nl.mathworks.com/help/signal/ref/pwelch.html
 * https://nl.mathworks.com/matlabcentral/fileexchange/3805-rational-fraction-polynomial-method
+* https://matlab.mathworks.com/
