@@ -4,13 +4,18 @@
 
 ### Local Motion Signal
 
-It is also possible to compute the local motion signals using other techniques. For example, classical optical flow and point correlation methods were successfully used in previous work on visual vibration sensing.
+It is possible to compute the local motion signals using other techniques. For example, classical **optical flow** and **point correlation** methods were successfully used in previous work on visual vibration sensing.
 * [New image processing tools for structural dynamic monitoring](https://oatao.univ-toulouse.fr/1739/)
 * [Uncertainty analysis of high frequency image-based vibration measurements](https://www.sciencedirect.com/science/article/pii/S0263224113001863)
 
 <p float="left">
     <img src="./output/starry_night.jpg" width=600 />
 </p>
+
+The local motion signals can also be derived from **phase variations** in the complex **steerable pyramid** proposed by [Simoncelli et al. 1992; Portilla and Simoncelli 2000]
+* [A Parametric Texture Model based on Joint Statistics of Complex Wavelet Coefficients](http://www.cns.nyu.edu/pub/lcv/portilla99.pdf)
+* [The Heeger & Bergen Pyramid Based Texture Synthesis Algorithm](http://www.ipol.im/pub/art/2014/79/)
+* [Python3 Implementation of steerable pyramid](https://github.com/TetsuyaOdaka/SteerablePyramid/)
 
 ### 1D Motion Signal
 
