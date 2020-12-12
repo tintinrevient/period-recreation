@@ -12,10 +12,12 @@ It is possible to compute the local motion signals using other techniques. For e
     <img src="./output/starry_night.jpg" width=600 />
 </p>
 
-The local motion signals can also be derived from **phase variations** in the complex **steerable pyramid** proposed by [Simoncelli et al. 1992; Portilla and Simoncelli 2000]
+The local motion signals can also be derived from **phase variations** in the complex **steerable pyramid** proposed by [Simoncelli et al. 1992; Portilla and Simoncelli 2000]. 
 * [A Parametric Texture Model based on Joint Statistics of Complex Wavelet Coefficients](http://www.cns.nyu.edu/pub/lcv/portilla99.pdf)
 * [The Heeger & Bergen Pyramid Based Texture Synthesis Algorithm](http://www.ipol.im/pub/art/2014/79/)
 * [Python3 Implementation of steerable pyramid](https://github.com/TetsuyaOdaka/SteerablePyramid/)
+
+For small motions, these **phase variations** are approximately proportional to **displacements** of image structures along the corresponding **orientation** and **scale**.
 
 ### 1D Motion Signal
 
