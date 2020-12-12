@@ -22,3 +22,4 @@ These local motion signals are aligned and averaged into a single, 1D motion sig
 * https://github.com/opencv/opencv/tree/master/samples/python
 * https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
 * https://en.wikipedia.org/wiki/The_Starry_Night
+* http://home.messiah.edu/~barrett/mpg/mpg.html
