@@ -21,7 +21,8 @@
 - [ ] chatbot with the past
 - [ ] 3D avatar / scene / gaming
 - [ ] social network in the past
-- [ ] GAN
+- [ ] GAN 与 猫
+- [ ] Optical flow + Van Gogh's "Starry night"
 - [ ] ANN
 - [ ] random forest
 - [ ] SVM
@@ -45,6 +46,7 @@
 * chindogu
 * MLFlow
 * 妖怪 lines
+* https://mathworld.wolfram.com/WallpaperGroups.html
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
@@ -52,6 +54,29 @@
 * https://visarts.eu/
 * https://eccv2020.eu/workshops/
 * https://www.semanticscholar.org/author/Andrew-Zisserman/1688869
+* https://arxiv.org/
+* https://dl-acm-org.proxy.library.uu.nl/
+* https://casa2019.sciencesconf.org/
+* http://www.mig2019.website/
+* http://computeranimation.org/
+* http://ieeevr.org/2020/
+* https://iva2020.psy.gla.ac.uk/
+* https://sap.acm.org/2020/
+* http://www.cgs-network.org/cgi20/
+* https://conferences.eg.org/egev20/
+
+## Following
+* https://www.csail.mit.edu/
+* https://ai.stanford.edu/
+* https://s2020.siggraph.org/
+* https://www.siggraph.org/
+* https://eccv2020.eu/workshops/
+* http://cvpr2020.thecvf.com/
+* https://www.robots.ox.ac.uk/~vgg/
+* https://www.media.mit.edu/
+* https://audio.dev/
+* https://mitibmwatsonailab.mit.edu/
+* https://www.digitalartsonline.co.uk/
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
