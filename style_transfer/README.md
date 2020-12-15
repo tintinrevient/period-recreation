@@ -7,7 +7,9 @@
     <img src="./output/style_transfer_result_at_iteration_4.png" width=400 />
 </p>
 
-customize loss function
+## Todos
+
+ - [ ] Customize loss function
 
 ## References
 * https://keras.io/examples/
