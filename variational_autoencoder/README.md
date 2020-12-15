@@ -9,7 +9,7 @@
 ## Result
 
 <p float="left">
-    <img src="./pix/latent_space_mnist.pngg" width=700 />
+    <img src="./pix/latent_space_mnist.png" width=700 />
 </p>
 
 ## Todos
