@@ -78,6 +78,10 @@
 * https://mitibmwatsonailab.mit.edu/
 * https://www.digitalartsonline.co.uk/
 
+## Datasets
+* http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+* https://www.npg.org.uk/research/
+
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
 * https://www.youtube.com/watch?v=tboRw6CPXjI&feature=emb_title
