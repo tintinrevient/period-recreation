@@ -3,8 +3,8 @@
 ## Concept
 
 <p float="left">
-    <img src="./pix/latent_space.png" width=400 />
-    <img src="./output/latent_space_mnist.png" width=400 />
+    <img src="./pix/latent_space.png" width=450 />
+    <img src="./output/latent_space_mnist.png" width=450 />
 </p>
 
 ## Result
