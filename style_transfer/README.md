@@ -9,11 +9,14 @@
 
 ## Todos
 
-- [ ] Customize loss function
+- [ ] Customize loss function - Recap
 - [ ] Optimization function
 - [ ] Loss layer
 - [ ] Conv2DTranspose
 - [ ] Tensorflow
+- [ ] Genetic algorithm
+- [ ] Reinforcement learning - Recap
+- [ ] Self-supervised learning
 
 ## References
 * https://keras.io/examples/
