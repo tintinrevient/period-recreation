@@ -47,6 +47,8 @@
 * MLFlow
 * 妖怪 lines
 * https://mathworld.wolfram.com/WallpaperGroups.html
+* 群像 Pose 构图 人物心理
+* Portrait vs. Celebrity
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
