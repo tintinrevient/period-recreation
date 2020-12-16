@@ -77,6 +77,11 @@
 * https://audio.dev/
 * https://mitibmwatsonailab.mit.edu/
 * https://www.digitalartsonline.co.uk/
+* http://www.thepaintingfool.com/papers/index.html
+
+## Datasets
+* http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+* https://www.npg.org.uk/research/
 
 ## References
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
