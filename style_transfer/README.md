@@ -9,7 +9,8 @@
 
 ## Todos
 
- - [ ] Customize loss function
+- [ ] Customize loss function
+- [ ] Conv2DTranspose
 
 ## References
 * https://keras.io/examples/
