@@ -10,7 +10,10 @@
 ## Todos
 
 - [ ] Customize loss function
+- [ ] Optimization function
+- [ ] Loss layer
 - [ ] Conv2DTranspose
+- [ ] Tensorflow
 
 ## References
 * https://keras.io/examples/
