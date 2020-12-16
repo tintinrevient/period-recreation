@@ -198,8 +198,6 @@ for i, yi in enumerate(grid_x):
         z_sample = np.tile(z_sample, batch_size).reshape(batch_size, 2)
         x_decoded = decoder.predict(z_sample, batch_size=batch_size)
 
-        print(x_decoded[0])
-
         digit = x_decoded[0].reshape(digit_size, digit_size, 3)
         digit = deprocess_image(digit)
 
