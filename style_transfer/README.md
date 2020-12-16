@@ -17,6 +17,8 @@
 - [ ] Genetic algorithm
 - [ ] Reinforcement learning - Recap
 - [ ] Self-supervised learning
+- [ ] Optical flow - Recap
+- [ ] Fourier transform - Recap
 
 ## References
 * https://keras.io/examples/
