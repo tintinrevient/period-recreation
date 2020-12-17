@@ -19,6 +19,7 @@
 - [ ] Self-supervised learning
 - [ ] Optical flow - Recap
 - [ ] Fourier transform - Recap
+- [ ] MLFlow
 
 ## References
 * https://keras.io/examples/
