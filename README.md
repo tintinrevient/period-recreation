@@ -49,6 +49,7 @@
 * https://mathworld.wolfram.com/WallpaperGroups.html
 * 群像 Pose 构图 人物心理
 * Portrait vs. Celebrity
+* https://www.nextrembrandt.com/ and https://news.microsoft.com/europe/features/next-rembrandt/
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
