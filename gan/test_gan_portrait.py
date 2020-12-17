@@ -77,7 +77,7 @@ gan.compile(optimizer=gan_optimizer, loss='binary_crossentropy')
 import os
 from keras.preprocessing import image
 
-dataset_dir_path = "../variational_autoencoder/images"
+dataset_dir_path = "./images"
 
 data_generator = image.ImageDataGenerator(
     rescale=1. / 255,
@@ -106,7 +106,7 @@ x_train = np.asarray(x_train)
 
 print("Training data shape:", x_train.shape)
 
-iterations = 150
+iterations = 550
 batch_size = 20
 save_dir = './output/'
 
