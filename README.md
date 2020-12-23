@@ -50,6 +50,7 @@
 * 群像 Pose 构图 人物心理
 * Portrait vs. Celebrity
 * https://www.nextrembrandt.com/ and https://news.microsoft.com/europe/features/next-rembrandt/
+* convolution + kernel (impulse response) - https://www.youtube.com/watch?v=hj7j4Q8T3Ck
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
