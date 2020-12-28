@@ -86,6 +86,12 @@
 ## Datasets
 * http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 * https://www.npg.org.uk/research/
+* https://www.centraalmuseum.nl/en/exhibitions/utrecht-caravaggio-and-europe
+* https://en.wikipedia.org/wiki/Caravaggisti
+* https://artsandculture.google.com/entity/caravaggisti/m0c3v8gh?date=1650&categoryid=art-movement
+* https://artsandculture.google.com/entity/utrecht-caravaggism/m06rbhl
+* https://www.reddit.com/r/DataHoarder/comments/cqpxo8/archiving_data_from_google_arts_culture/
+* https://iiif.io/apps-demos/#image-servers
 
 ## References
 * https://www.artaigallery.com/
