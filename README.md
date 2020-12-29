@@ -92,6 +92,8 @@
 * https://artsandculture.google.com/entity/utrecht-caravaggism/m06rbhl
 * https://www.reddit.com/r/DataHoarder/comments/cqpxo8/archiving_data_from_google_arts_culture/
 * https://iiif.io/apps-demos/#image-servers
+* https://www.kaggle.com/c/painter-by-numbers/data
+* https://www.wikiart.org/
 
 ## References
 * https://www.artaigallery.com/
