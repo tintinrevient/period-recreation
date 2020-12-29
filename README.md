@@ -101,7 +101,9 @@
 * https://www.wikiart.org/
 
 ## Algorithms
-* Tensorflow searches in the parameter space: gradient descent; simulated annealing; genetic algorithms.
+* Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
+* Clustering algorithm K-means is a speficic instance of the E-M algorithm.
+* Dimensionality reduction: PCA and autoencoders.
 
 ## References
 * https://www.artaigallery.com/
