@@ -92,7 +92,12 @@
 * https://artsandculture.google.com/entity/utrecht-caravaggism/m06rbhl
 * https://www.reddit.com/r/DataHoarder/comments/cqpxo8/archiving_data_from_google_arts_culture/
 * https://iiif.io/apps-demos/#image-servers
-* https://www.kaggle.com/c/painter-by-numbers/data
+* https://www.kaggle.com/c/painter-by-numbers/data (85G)
+* https://www.kaggle.com/ipythonx/wikiart-gangogh-creating-art-gan (35G)
+* https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving (600M)
+* https://www.kaggle.com/moosecat/art-images-drawings-painting-sculpture-engraving (600M)
+* https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+* https://www.kaggle.com/ipythonx/van-gogh-paintings
 * https://www.wikiart.org/
 
 ## References
