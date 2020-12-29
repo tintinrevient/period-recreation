@@ -172,3 +172,4 @@
 * http://www.getty.edu/research/tools/provenance/
 * http://www.vangoghletters.org/vg/context_1.html
 * https://www.gutenberg.org/files/49086/49086-h/49086-h.htm
+* https://www.tensorflow.org/api_docs/python/tf/compat/v1/Session
