@@ -100,6 +100,9 @@
 * https://www.kaggle.com/ipythonx/van-gogh-paintings
 * https://www.wikiart.org/
 
+## Algorithms
+* Tensorflow searches in the parameter space: gradient descent; simulated annealing; genetic algorithms.
+
 ## References
 * https://www.artaigallery.com/
 * https://mymodernmet.com/dutch-proverbs-pieter-bruegel/
