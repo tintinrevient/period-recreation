@@ -100,6 +100,7 @@
 * https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 * https://www.kaggle.com/ipythonx/van-gogh-paintings
 * https://www.wikiart.org/
+* https://catalog.data.gov/dataset
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
