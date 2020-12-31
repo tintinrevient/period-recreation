@@ -69,6 +69,7 @@
 * https://sap.acm.org/2020/
 * http://www.cgs-network.org/cgi20/
 * https://conferences.eg.org/egev20/
+* https://www.tandfonline.com/toc/gvir20/current
 
 ## Following
 * https://www.csail.mit.edu/
