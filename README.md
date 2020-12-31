@@ -29,6 +29,7 @@
 - [ ] object recognition to do other things
 - [ ] where is waldo? + ML
 - [ ] segmentation vs. decision tree
+- [ ] stackGAN, conditional GAN, cycleGAN
 
 ## Pieces
 * https://en.wikipedia.org/wiki/Kinetic_art
