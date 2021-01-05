@@ -103,6 +103,7 @@
 * https://www.kaggle.com/ipythonx/van-gogh-paintings
 * https://www.wikiart.org/
 * https://catalog.data.gov/dataset
+* http://archive.ics.uci.edu/ml/datasets/User+Identification+From+Walking+Activity
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
