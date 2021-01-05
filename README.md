@@ -105,6 +105,7 @@
 * https://www.wikiart.org/
 * https://catalog.data.gov/dataset
 * http://archive.ics.uci.edu/ml/datasets/User+Identification+From+Walking+Activity
+* http://www.eng.usf.edu/cvprg/GaitBaseline/index.html
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
