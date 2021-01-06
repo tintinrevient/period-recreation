@@ -118,6 +118,7 @@
 * http://www.openslr.org/12/
 * http://www.openslr.org/7/
 * http://www.openslr.org/17/
+* https://cocodataset.org/#download
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
