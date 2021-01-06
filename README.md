@@ -30,6 +30,8 @@
 - [ ] where is waldo? + ML
 - [ ] segmentation vs. decision tree
 - [ ] stackGAN, conditional GAN, cycleGAN
+- [ ] Variational AutoEncoder -> Bayesian Network
+- [ ] reinforcement learning -> select_action() + update_q()
 
 ## Pieces
 * https://en.wikipedia.org/wiki/Kinetic_art
