@@ -31,7 +31,7 @@
 - [ ] segmentation vs. decision tree
 - [ ] stackGAN, conditional GAN, cycleGAN
 - [ ] Variational AutoEncoder -> Bayesian Network
-- [ ] reinforcement learning -> select_action() + update_q()
+- [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
 
 ## Pieces
 * https://en.wikipedia.org/wiki/Kinetic_art
