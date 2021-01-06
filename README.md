@@ -108,6 +108,11 @@
 * https://catalog.data.gov/dataset
 * http://archive.ics.uci.edu/ml/datasets/User+Identification+From+Walking+Activity
 * http://www.eng.usf.edu/cvprg/GaitBaseline/index.html
+* http://image-net.org/
+* https://www.robots.ox.ac.uk/~vgg/data/vgg_face/
+* http://vis-www.cs.umass.edu/fddb/
+* http://robotics.csie.ncku.edu.tw/Databases/FaceDetect_PoseEstimate.htm#O
+* https://www.cs.tau.ac.il/~wolf/ytfaces/
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
