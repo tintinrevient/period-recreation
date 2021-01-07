@@ -106,6 +106,7 @@
 * https://www.tensorflow.org/datasets/catalog/coco
 * https://www.tensorflow.org/datasets/catalog/flic (1G)
 * https://www.tensorflow.org/datasets/catalog/nyu_depth_v2 (35G)
+* https://www.tensorflow.org/datasets/catalog/quickdraw_bitmap (37G)
 * https://www.kaggle.com/c/painter-by-numbers/data (85G)
 * https://www.kaggle.com/ipythonx/wikiart-gangogh-creating-art-gan (35G)
 * https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving (600M)
