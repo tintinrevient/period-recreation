@@ -55,6 +55,8 @@
 * https://www.nextrembrandt.com/ and https://news.microsoft.com/europe/features/next-rembrandt/
 * convolution + kernel (impulse response) - https://www.youtube.com/watch?v=hj7j4Q8T3Ck
 * https://github.com/CMU-Perceptual-Computing-Lab/openpose + Caravaggio
+* Pose = Choreography, Yoga, etc...
+* https://quickdraw.readthedocs.io/en/latest/
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
