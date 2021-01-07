@@ -97,6 +97,12 @@
 * https://artsandculture.google.com/entity/utrecht-caravaggism/m06rbhl
 * https://www.reddit.com/r/DataHoarder/comments/cqpxo8/archiving_data_from_google_arts_culture/
 * https://iiif.io/apps-demos/#image-servers
+* http://www.openslr.org/12/
+* http://www.openslr.org/7/
+* http://www.openslr.org/17/
+* https://cocodataset.org/#download
+* https://cocodataset.org/#keypoints-2016
+* https://cocodataset.org/#densepose-2020
 * https://www.tensorflow.org/datasets/catalog/coco
 * https://www.kaggle.com/c/painter-by-numbers/data (85G)
 * https://www.kaggle.com/ipythonx/wikiart-gangogh-creating-art-gan (35G)
@@ -115,12 +121,6 @@
 * http://robotics.csie.ncku.edu.tw/Databases/FaceDetect_PoseEstimate.htm#O
 * https://www.cs.tau.ac.il/~wolf/ytfaces/
 * http://www.voxforge.org/
-* http://www.openslr.org/12/
-* http://www.openslr.org/7/
-* http://www.openslr.org/17/
-* https://cocodataset.org/#download
-* https://cocodataset.org/#keypoints-2016
-* https://cocodataset.org/#densepose-2020
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
