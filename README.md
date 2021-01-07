@@ -104,6 +104,7 @@
 * https://cocodataset.org/#keypoints-2016
 * https://cocodataset.org/#densepose-2020
 * https://www.tensorflow.org/datasets/catalog/coco
+* https://www.tensorflow.org/datasets/catalog/flic
 * https://www.kaggle.com/c/painter-by-numbers/data (85G)
 * https://www.kaggle.com/ipythonx/wikiart-gangogh-creating-art-gan (35G)
 * https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving (600M)
