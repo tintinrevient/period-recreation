@@ -88,6 +88,7 @@
 * https://www.digitalartsonline.co.uk/
 * http://www.thepaintingfool.com/papers/index.html
 * https://experiments.withgoogle.com/collection/arts-culture
+* https://experiments.withgoogle.com/living-archive-wayne-mcgregor
 
 ## Datasets
 * http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
