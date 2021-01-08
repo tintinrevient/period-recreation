@@ -121,6 +121,8 @@
 * https://research.google.com/youtube8m/explore.html
 * https://aistdancedb.ongaaccel.jp/
 * http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm
+* http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm#human
+* http://rll.berkeley.edu/bigbird/
 * https://www.wikiart.org/
 * https://catalog.data.gov/dataset
 * http://archive.ics.uci.edu/ml/datasets/User+Identification+From+Walking+Activity
