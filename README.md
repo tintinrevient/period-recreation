@@ -118,6 +118,9 @@
 * https://www.kaggle.com/moosecat/art-images-drawings-painting-sculpture-engraving (600M)
 * https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 * https://www.kaggle.com/ipythonx/van-gogh-paintings
+* https://research.google.com/youtube8m/explore.html
+* https://aistdancedb.ongaaccel.jp/
+* http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm
 * https://www.wikiart.org/
 * https://catalog.data.gov/dataset
 * http://archive.ics.uci.edu/ml/datasets/User+Identification+From+Walking+Activity
