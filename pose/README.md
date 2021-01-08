@@ -6,7 +6,7 @@
 
 <p float="left">
 	<img src="./pix/my_yoga_6.jpg" width=300 />
-	<img src="./pix/dense_pose.jpg" width=300 />
+	<img src="./pix/dense_pose.png" width=300 />
 	<img src="./pix/open_pose.png" width=300 />
 </p>
 
