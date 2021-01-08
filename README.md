@@ -122,6 +122,7 @@
 * https://aistdancedb.ongaaccel.jp/
 * http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm
 * http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm#human
+* http://buff.is.tue.mpg.de/
 * http://rll.berkeley.edu/bigbird/
 * https://www.wikiart.org/
 * https://catalog.data.gov/dataset
