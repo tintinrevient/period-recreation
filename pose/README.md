@@ -14,7 +14,7 @@
 ), [AIST Dance Video Database](https://aistdancedb.ongaaccel.jp/)
 
 <p float="left">
-	<img src="./pix/choreography.png" width=400 />
+	<img src="./pix/choreography.png" width=450 />
 	<img src="./pix/sky_dancer.jpg" width=200 />
 	<img src="./pix/aist_dance.png" width=300 />
 </p>
