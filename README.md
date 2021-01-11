@@ -122,6 +122,11 @@
 * https://aistdancedb.ongaaccel.jp/
 * http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm
 * http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm#human
+* http://www.manga109.org/en/index.html
+* http://human-pose.mpi-inf.mpg.de/#download
+* https://www.robots.ox.ac.uk/~vgg/data/pose/index.html#downloadlink
+* https://quickposes.com/en
+* https://graphics.tu-bs.de/people-snapshot
 * http://buff.is.tue.mpg.de/
 * http://rll.berkeley.edu/bigbird/
 * https://www.wikiart.org/
