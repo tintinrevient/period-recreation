@@ -126,6 +126,7 @@
 * http://human-pose.mpi-inf.mpg.de/#download
 * https://www.robots.ox.ac.uk/~vgg/data/pose/index.html#downloadlink
 * https://quickposes.com/en
+* http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/
 * https://graphics.tu-bs.de/people-snapshot
 * http://buff.is.tue.mpg.de/
 * http://rll.berkeley.edu/bigbird/
