@@ -29,6 +29,7 @@
 - [ ] object recognition to do other things
 - [ ] where is waldo? + ML
 - [ ] segmentation vs. decision tree
+- [ ] baseline - style transfer
 - [ ] stackGAN, conditional GAN, cycleGAN
 - [ ] original GAN + variations of GAN + loss 
 - [ ] visualize GAN
