@@ -32,6 +32,7 @@
 - [ ] stackGAN, conditional GAN, cycleGAN
 - [ ] original GAN + variations of GAN + loss 
 - [ ] visualize GAN
+- [ ] GAN 脉络
 - [ ] Variational AutoEncoder -> Bayesian Network
 - [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
 
