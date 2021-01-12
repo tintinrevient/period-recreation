@@ -30,6 +30,8 @@
 - [ ] where is waldo? + ML
 - [ ] segmentation vs. decision tree
 - [ ] stackGAN, conditional GAN, cycleGAN
+- [ ] original GAN + variations of GAN + loss 
+- [ ] visualize GAN
 - [ ] Variational AutoEncoder -> Bayesian Network
 - [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
 
