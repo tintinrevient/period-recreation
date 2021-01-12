@@ -33,7 +33,9 @@
 - [ ] original GAN + variations of GAN + loss 
 - [ ] visualize GAN
 - [ ] GAN 脉络
-- [ ] Variational AutoEncoder -> Bayesian Network
+- [ ] Contrastive Learning 脉络
+- [ ] Variational AutoEncoder -> Bayesian Network 脉络
+- [ ] Resnet - http://torch.ch/blog/2016/02/04/resnets.html
 - [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
 
 ## Pieces
