@@ -60,6 +60,8 @@
 * Pose = Choreography, Yoga, etc...
 * https://quickdraw.readthedocs.io/en/latest/
 * https://retro.readthedocs.io/en/latest/getting_started.html
+* https://openai.com/blog/clip/
+* https://openai.com/blog/dall-e/
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
