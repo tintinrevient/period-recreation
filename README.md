@@ -59,6 +59,7 @@
 * https://github.com/CMU-Perceptual-Computing-Lab/openpose + Caravaggio
 * Pose = Choreography, Yoga, etc...
 * https://quickdraw.readthedocs.io/en/latest/
+* https://retro.readthedocs.io/en/latest/getting_started.html
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
