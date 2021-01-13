@@ -29,8 +29,14 @@
 - [ ] object recognition to do other things
 - [ ] where is waldo? + ML
 - [ ] segmentation vs. decision tree
+- [ ] baseline - style transfer
 - [ ] stackGAN, conditional GAN, cycleGAN
-- [ ] Variational AutoEncoder -> Bayesian Network
+- [ ] original GAN + variations of GAN + loss 
+- [ ] visualize GAN
+- [ ] GAN 脉络
+- [ ] Contrastive Learning 脉络
+- [ ] Variational AutoEncoder -> Bayesian Network 脉络
+- [ ] Resnet - http://torch.ch/blog/2016/02/04/resnets.html
 - [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
 
 ## Pieces
@@ -57,6 +63,9 @@
 * https://github.com/CMU-Perceptual-Computing-Lab/openpose + Caravaggio
 * Pose = Choreography, Yoga, etc...
 * https://quickdraw.readthedocs.io/en/latest/
+* https://retro.readthedocs.io/en/latest/getting_started.html
+* https://openai.com/blog/clip/
+* https://openai.com/blog/dall-e/
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
@@ -122,6 +131,12 @@
 * https://aistdancedb.ongaaccel.jp/
 * http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm
 * http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm#human
+* http://www.manga109.org/en/index.html
+* http://human-pose.mpi-inf.mpg.de/#download
+* https://www.robots.ox.ac.uk/~vgg/data/pose/index.html#downloadlink
+* https://quickposes.com/en
+* http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/
+* https://graphics.tu-bs.de/people-snapshot
 * http://buff.is.tue.mpg.de/
 * http://rll.berkeley.edu/bigbird/
 * https://www.wikiart.org/
