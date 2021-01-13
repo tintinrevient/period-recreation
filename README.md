@@ -30,13 +30,15 @@
 - [ ] where is waldo? + ML
 - [ ] segmentation vs. decision tree
 - [ ] baseline - style transfer
+- [ ] data augmentation: style transfer + data augmentation
+ - AutoAugment, RandAugment, SimAugment, Stacked RandAugment
 - [ ] stackGAN, conditional GAN, cycleGAN
 - [ ] original GAN + variations of GAN + loss 
 - [ ] visualize GAN
 - [ ] GAN 脉络
 - [ ] Contrastive Learning 脉络
 - [ ] Variational AutoEncoder -> Bayesian Network 脉络
-- [ ] Resnet - http://torch.ch/blog/2016/02/04/resnets.html
+- [ ] Resnet - http://torch.ch/blog/2016/02/04/resnets.html -> learn a better embedding?
 - [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
 
 ## Pieces
