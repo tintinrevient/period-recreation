@@ -30,8 +30,7 @@
 - [ ] where is waldo? + ML
 - [ ] segmentation vs. decision tree
 - [ ] baseline - style transfer
-- [ ] data augmentation: style transfer + data augmentation
- - AutoAugment, RandAugment, SimAugment, Stacked RandAugment
+- [ ] data augmentation: style transfer + (AutoAugment, RandAugment, SimAugment, Stacked RandAugment)
 - [ ] stackGAN, conditional GAN, cycleGAN
 - [ ] original GAN + variations of GAN + loss 
 - [ ] visualize GAN
