@@ -3,6 +3,12 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 
+from tensorflow.compat.v1 import ConfigProto
+from tensorflow.compat.v1 import InteractiveSession
+
+config = ConfigProto()
+config.gpu_options.allow_growth = True
+session = InteractiveSession(config=config)
 
 # Create a sampling layer
 class Sampling(layers.Layer):
@@ -340,7 +346,9 @@ def tsne(X=np.array([]), no_dims=2, initial_dims=50, perplexity=30.0):
 (x_train, y_train), _ = keras.datasets.mnist.load_data()
 x_train = np.expand_dims(x_train, -1).astype("float32") / 255
 # display a 2D plot of the digit classes in the latent space
-Y = tsne(x_train, 2, 50, 20.0)
+z_mean, _, z = vae.encoder.predict(x_train)
+print(z.shape)
+Y = tsne(z, 2, 50, 20.0)
 
 plt.figure(figsize=(12, 10))
 plt.scatter(Y[:, 0], Y[:, 1], c=y_train)
