@@ -26,10 +26,11 @@
     <img src="./pix/loss.png" width=700 />
 </p>
 
-## Result
+## Cluster and t-SNE
 
 <p float="left">
-    <img src="./output/latent_space_portraits.png" width=800 />
+    <img src="./output/cluster.png" width=450 />
+    <img src="./output/cluster_tsne.png" width=450 />
 </p>
 
 ## Todos
