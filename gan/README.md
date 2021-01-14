@@ -1,17 +1,32 @@
 # Generative adversarial network
 
-## Concept
+## Code
+
+### Discriminator
 
 <p float="left">
-    <img src="./pix/gan.png" width=450 />
-    <img src="./pix/fake_frogs.png" width=450 />
+    <img src="./pix/discriminator.png" width=700 />
 </p>
 
-## Result
+### Generator
 
 <p float="left">
-    <img src="./pix/fake_portrait.png" width=700 />
+    <img src="./pix/generator.png" width=700 />
+</p>
+
+### Loss of Discriminator
+
+<p float="left">
+    <img src="./pix/loss_discriminator.png" width=700 />
+</p>
+
+### Loss of Generator
+
+<p float="left">
+    <img src="./pix/loss_generator.png" width=700 />
 </p>
 
 ## References
 * https://keras.io/examples/
+* https://keras.io/examples/generative/dcgan_overriding_train_step/
+* https://github.com/goodfeli/adversarial
