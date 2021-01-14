@@ -18,4 +18,5 @@
  - [ ] Develop latent spaces of sound and music
 
 ## References
-* https://keras.io/examples/
+* https://keras.io/examples/generative/vae/
+* https://ermongroup.github.io/cs228-notes/extras/vae/
