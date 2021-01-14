@@ -1,4 +1,4 @@
-# Variational autoencoder
+# VAE, t-SNE or PCA
 
 ## Concept
 
@@ -20,3 +20,6 @@
 ## References
 * https://keras.io/examples/generative/vae/
 * https://ermongroup.github.io/cs228-notes/extras/vae/
+* https://lvdmaaten.github.io/tsne/
+* https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html
+* https://towardsdatascience.com/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b
