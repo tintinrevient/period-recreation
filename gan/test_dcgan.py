@@ -7,13 +7,21 @@ import os
 import gdown
 from zipfile import ZipFile
 
+from tensorflow.compat.v1 import ConfigProto
+from tensorflow.compat.v1 import InteractiveSession
 
-url = "https://drive.google.com/uc?id=1O7m1010EJjLE5QxLZiM9Fpjs7Oj6e684"
-output = "celeba_gan/data.zip"
-gdown.download(url, output, quiet=True)
+config = ConfigProto()
+config.gpu_options.allow_growth = True
+session = InteractiveSession(config=config)
 
-with ZipFile("celeba_gan/data.zip", "r") as zipobj:
-    zipobj.extractall("celeba_gan")
+# Download the dataset from Google Drive
+# url = "https://drive.google.com/uc?id=0B7EVK8r0v71pZjFTYXZWM3FlRnM"
+# output = "celeba_gan/data.zip"
+# gdown.download(url, output, quiet=True)
+
+# Unzip data.zip
+# with ZipFile("celeba_gan/data.zip", "r") as zipobj:
+#     zipobj.extractall("celeba_gan")
 
 
 dataset = keras.preprocessing.image_dataset_from_directory(
