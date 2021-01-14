@@ -1,10 +1,29 @@
 # VAE, t-SNE or PCA
 
-## Concept
+## Code
+
+### Encoder
 
 <p float="left">
-    <img src="./pix/latent_space.png" width=450 />
-    <img src="./output/latent_space_mnist.png" width=450 />
+    <img src="./pix/encoder.png" width=700 />
+</p>
+
+### Sampling layer
+
+<p float="left">
+    <img src="./pix/sampling_layer.png" width=700 />
+</p>
+
+### Decoder
+
+<p float="left">
+    <img src="./pix/decoder.png" width=700 />
+</p>
+
+### Loss
+
+<p float="left">
+    <img src="./pix/loss.png" width=700 />
 </p>
 
 ## Result
@@ -18,6 +37,7 @@
  - [ ] Develop latent spaces of sound and music
 
 ## Issues
+
 * [NotFoundError: No algorithm worked! when using Conv2D](https://github.com/tensorflow/tensorflow/issues/43174)
 
 ```python
