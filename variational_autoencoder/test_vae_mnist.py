@@ -347,7 +347,6 @@ def tsne(X=np.array([]), no_dims=2, initial_dims=50, perplexity=30.0):
 x_train = np.expand_dims(x_train, -1).astype("float32") / 255
 # display a 2D plot of the digit classes in the latent space
 z_mean, _, z = vae.encoder.predict(x_train)
-print(z.shape)
 Y = tsne(z, 2, 50, 20.0)
 
 plt.figure(figsize=(12, 10))
