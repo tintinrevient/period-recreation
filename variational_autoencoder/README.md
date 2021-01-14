@@ -17,6 +17,18 @@
 
  - [ ] Develop latent spaces of sound and music
 
+## Issues
+* [NotFoundError: No algorithm worked! when using Conv2D](https://github.com/tensorflow/tensorflow/issues/43174)
+
+```python
+from tensorflow.compat.v1 import ConfigProto
+from tensorflow.compat.v1 import InteractiveSession
+
+config = ConfigProto()
+config.gpu_options.allow_growth = True
+session = InteractiveSession(config=config)
+```
+
 ## References
 * https://keras.io/examples/generative/vae/
 * https://ermongroup.github.io/cs228-notes/extras/vae/
