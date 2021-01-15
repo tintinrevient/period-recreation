@@ -31,3 +31,4 @@
 * https://keras.io/examples/generative/dcgan_overriding_train_step/
 * https://arxiv.org/pdf/1511.06434.pdf
 * http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+* https://keras.io/examples/generative/wgan_gp/
