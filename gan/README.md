@@ -27,6 +27,7 @@
 </p>
 
 ## References
-* https://keras.io/examples/
-* https://keras.io/examples/generative/dcgan_overriding_train_step/
 * https://github.com/goodfeli/adversarial
+* https://keras.io/examples/generative/dcgan_overriding_train_step/
+* https://arxiv.org/pdf/1511.06434.pdf
+* http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
