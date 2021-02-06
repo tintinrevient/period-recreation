@@ -1,14 +1,10 @@
-from keras import models
-from keras import layers
-from keras import optimizers
-from keras import regularizers
-from keras import callbacks
-from keras_preprocessing import image
-from keras.utils import plot_model
+import tensorflow as tf
+from tensorflow.keras import models
+from tensorflow.keras import layers
+from tensorflow.keras import regularizers
+from tensorflow.keras.preprocessing import image
 import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
-from sklearn.metrics import confusion_matrix
 import os
 
 
@@ -21,14 +17,12 @@ dataset_train_dir_path = os.path.join('data', 'train')
 dataset_test_dir_path = os.path.join('data', 'test')
 
 # hyper-parameters
-nb_channel=3
-target_size = [112, 112]
 epochs = 50
 batch_size = 25
-learning_rate = 0.001
+target_size = [96, 96]
 
 # number of classes
-num_classes = 40
+num_classes = 2
 
 
 def build_model():
@@ -227,6 +221,20 @@ def predict(genre, img_filename):
 
 
 if __name__ == "__main__":
+
+    # os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
+    #
+    # physical_devices = tf.config.experimental.list_physical_devices('GPU')
+    # if len(physical_devices) > 0:
+    #     tf.config.experimental.set_memory_growth(physical_devices[0], True)
+
+    # config = tf.compat.v1.ConfigProto()
+    # config.gpu_options.allow_growth = True  # dynamically grow the memory used on the GPU
+    # config.log_device_placement = True  # to log device placement (on which device the operation ran)
+    # sess = tf.compat.v1.Session(config=config)
+    # tf.compat.v1.keras.backend.set_session(sess)
+
+    print('Tensorflow version:', tf.version.VERSION)
 
     # train the model
     train()
