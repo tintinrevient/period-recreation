@@ -1,37 +1,105 @@
 from keras import models
 from keras import layers
-from keras import optimizers
 from keras import regularizers
-from keras import callbacks
 from keras_preprocessing import image
-from keras.utils import plot_model
 import matplotlib.pyplot as plt
+import pandas as pd
 import numpy as np
-import seaborn as sns
-from sklearn.metrics import confusion_matrix
 import os
 
 
-# model path
-model_file_path = os.path.join('model', 'cnn.h5')
-model_weights_path = os.path.join('model', 'cnn.npy')
+# number of training epochs
+epochs = 50
+# batch size
+batch_size = 25
+# number of classes
+num_classes = 2
+# target size
+target_size = [96, 96]
 
-# dataset path
+# path to the dataset
 dataset_train_dir_path = os.path.join('data', 'train')
 dataset_test_dir_path = os.path.join('data', 'test')
 
-# hyper-parameters
-nb_channel=3
-target_size = [112, 112]
-epochs = 50
-batch_size = 25
-learning_rate = 0.001
+# path to the trained models
+model_dirname = 'model'
+if not os.path.exists(model_dirname):
+    os.mkdir(model_dirname)
 
-# number of classes
-num_classes = 40
+model_filename = 'cnn_model.h5'
+model_path = os.path.join(model_dirname, model_filename)
+
+# path to the trained models' weights
+weights_dirname = 'weights'
+if not os.path.exists(weights_dirname):
+    os.mkdir(weights_dirname)
+
+weights_filename = 'weights_model.npy'
+weights_path = os.path.join(weights_dirname, weights_filename)
+
+def preprocess():
+
+    train_data_generator = image.ImageDataGenerator(
+        rescale=1. / 255,
+        validation_split=0.2,
+        horizontal_flip=True,
+        zoom_range=[0.9, 1.4],
+        brightness_range=[0.75, 1.25],
+        rotation_range=10
+    )
+
+    test_data_generator = image.ImageDataGenerator(
+        rescale=1. / 255
+    )
+
+    training_generator = train_data_generator.flow_from_directory(
+        directory=dataset_train_dir_path,
+        target_size=tuple(target_size),
+        batch_size=batch_size,
+        class_mode="categorical",
+        subset="training"
+    )
+
+    validation_generator = train_data_generator.flow_from_directory(
+        directory=dataset_train_dir_path,
+        target_size=tuple(target_size),
+        batch_size=batch_size,
+        class_mode="categorical",
+        subset="validation"
+    )
+
+    test_generator = test_data_generator.flow_from_directory(
+        directory=dataset_test_dir_path,
+        target_size=tuple(target_size),
+        batch_size=batch_size,
+        class_mode="categorical"
+    )
+
+    return training_generator, validation_generator, test_generator
 
 
-def build_model():
+def plot_history(history):
+    plt.figure(1)
+    plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.title('Training and validation loss')
+    plt.ylabel('Loss')
+    plt.xlabel('Epoch')
+    plt.legend(['Train', 'Validation'], loc='upper left')
+
+    plt.figure(2)
+    plt.plot(history.history['accuracy'])
+    plt.plot(history.history['val_accuracy'])
+    plt.title('Training and validation accuracy')
+    plt.ylabel('Accuracy')
+    plt.xlabel('Epoch')
+    plt.legend(['Train', 'Validation'], loc='upper left')
+
+    plt.show()
+
+
+def train():
+    training_generator, validation_generator, test_generator = preprocess()
 
     model = models.Sequential([
         # conv 1
@@ -39,7 +107,7 @@ def build_model():
                                kernel_size=(5, 5),
                                kernel_regularizer=regularizers.l2(0.001),
                                activation='relu',
-                               input_shape=tuple(target_size)+(3,)),
+                               input_shape=tuple(target_size) + (3,)),
         # conv 2
         layers.SeparableConv2D(filters=64,
                                kernel_size=(5, 5),
@@ -88,108 +156,45 @@ def build_model():
         layers.Dense(units=num_classes, activation='softmax')
     ])
 
-    return model
-
-
-def plot_history(history):
-    """Plot the training and validation accuracy and loss graphs
-
-    :param history: History of the whole training process
-    """
-    plt.figure(1)
-    plt.plot(history.history['loss'])
-    plt.plot(history.history['val_loss'])
-    plt.title('Training and validation loss')
-    plt.ylabel('Loss')
-    plt.xlabel('Epoch')
-    plt.legend(['Train', 'Validation'], loc='upper left')
-
-    plt.figure(2)
-    plt.plot(history.history['accuracy'])
-    plt.plot(history.history['val_accuracy'])
-    plt.title('Training and validation accuracy')
-    plt.ylabel('Accuracy')
-    plt.xlabel('Epoch')
-    plt.legend(['Train', 'Validation'], loc='upper left')
-
-    plt.show()
-
-
-def train():
-
-    model = build_model()
-
     model.compile(optimizer='adam',
-                  loss='sparse_categorical_crossentropy',
+                  loss='categorical_crossentropy',
                   metrics=['accuracy'])
 
-    # print the summary of model
     model.summary()
 
-    # data augmentation
-    train_datagen = image.ImageDataGenerator(
-        rescale=1. / 255,
-        validation_split=0.2,
-        horizontal_flip=True,
-        zoom_range=[0.9, 1.4],
-        brightness_range=[0.75, 1.25],
-        rotation_range=10)
-
-    test_datagen = image.ImageDataGenerator(rescale=1. / 255)
-
-    train_generator = train_datagen.flow_from_directory(
-        directory=dataset_train_dir_path,
-        target_size=(96, 96),
-        batch_size=batch_size,
-        class_mode="categorical",
-        subset="training"
+    history = model.fit_generator(
+        generator=training_generator,
+        steps_per_epoch=training_generator.n / batch_size,
+        epochs=epochs,
+        validation_data=validation_generator,
+        validation_steps=validation_generator.n / batch_size,
+        verbose=1
     )
 
-    validation_generator = train_datagen.flow_from_directory(
-        directory=dataset_train_dir_path,
-        target_size=(96, 96),
-        batch_size=batch_size,
-        class_mode="categorical",
-        subset="validation"
-    )
-
-    test_generator = test_datagen.flow_from_directory(
-        directory=dataset_test_dir_path,
-        target_size=(96, 96),
-        batch_size=batch_size,
-        class_mode="categorical"
-    )
-
-    history = model.fit_generator(generator=train_generator,
-                                  steps_per_epoch=train_generator.n / batch_size,
-                                  validation_data=validation_generator,
-                                  validation_steps=validation_generator.n / batch_size,
-                                  epochs=epochs,
-                                  verbose=1)
-
-    # plot the training and validation accuracy and loss over the epochs
     plot_history(history)
 
-    # evaluate by the test dataset
     loss, accuracy = model.evaluate_generator(test_generator)
     print('\nTest accuracy:', accuracy)
 
     # save the model
-    model.save(model_file_path)
+    model.save(model_path)
 
     # save the model's weights
-    np.save(model_weights_path, model.get_weights())
+    np.save(weights_path, model.get_weights())
 
 
 def predict(genre, img_filename):
 
-    datagen = image.ImageDataGenerator(rescale=1. / 255)
+    datagen = image.ImageDataGenerator(
+        rescale=1. / 255
+    )
 
     testgen = datagen.flow_from_directory(
         directory=dataset_test_dir_path,
-        target_size=(96, 96),
+        target_size=tuple(target_size),
         batch_size=batch_size,
-        class_mode="categorical")
+        class_mode="categorical"
+    )
 
     # class indices dictionary with the mapping: class_name -> class_index
     class_indices = testgen.class_indices
@@ -198,20 +203,20 @@ def predict(genre, img_filename):
         class_names.append(class_name)
 
     # load the test image
-    img_path = os.path.join(dataset_test_dir_path, str(genre), img_filename)
-    img = image.load_img(img_path, target_size=(96, 96))
+    img_path = os.path.join(dataset_test_dir_path, genre, img_filename)
+    img = image.load_img(img_path, target_size=tuple(target_size))
     img_array = image.img_to_array(img)
     img_array = img_array.reshape((1,) + img_array.shape)
     img_array = img_array / 255.
 
     # load the model and predict the label
-    model = models.load_model(model_file_path)
+    model = models.load_model(model_path)
     pred = model.predict(img_array)
 
     predicted_label = class_names[np.argmax(pred)]
     predicted_prob = np.max(pred)
 
-    true_label = str(genre)
+    true_label = genre
 
     if predicted_label == true_label:
         color = 'blue'
@@ -232,4 +237,6 @@ if __name__ == "__main__":
     train()
 
     # predict the label given the image index
-    # predict('landscape', 'mw00001.jpg')  # 60% 1700
+    # predict('genre', 'mw00001.jpg') # 60% 1700
+    # predict('1600', 'mw00040.jpg') # 60% 1700
+    # predict('1700', 'mw00006.jpg') # 100% bottomwear
