@@ -95,6 +95,7 @@
 * http://cvpr2020.thecvf.com/
 * https://www.robots.ox.ac.uk/~vgg/
 * https://www.media.mit.edu/
+* https://www.media.mit.edu/groups/lifelong-kindergarten/overview/
 * https://audio.dev/
 * https://mitibmwatsonailab.mit.edu/
 * https://www.digitalartsonline.co.uk/
