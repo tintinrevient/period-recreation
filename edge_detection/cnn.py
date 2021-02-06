@@ -3,10 +3,8 @@ from keras import layers
 from keras import regularizers
 from keras_preprocessing import image
 import matplotlib.pyplot as plt
-import pandas as pd
 import numpy as np
 import os
-
 
 # number of training epochs
 epochs = 50
