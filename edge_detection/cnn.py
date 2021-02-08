@@ -15,6 +15,15 @@ num_classes = 2
 # target size
 target_size = [96, 96]
 
+# color channel
+# rgb
+# color_channel = 3
+# color_model = 'rgb'
+
+# grayscale
+color_channel = 1
+color_model = 'grayscale'
+
 # path to the dataset
 dataset_train_dir_path = os.path.join('data', 'train')
 dataset_test_dir_path = os.path.join('data', 'test')
@@ -24,7 +33,7 @@ model_dirname = 'model'
 if not os.path.exists(model_dirname):
     os.mkdir(model_dirname)
 
-model_filename = 'cnn_model.h5'
+model_filename = 'cnn_' + color_model + '_model.h5'
 model_path = os.path.join(model_dirname, model_filename)
 
 # path to the trained models' weights
@@ -32,7 +41,7 @@ weights_dirname = 'weights'
 if not os.path.exists(weights_dirname):
     os.mkdir(weights_dirname)
 
-weights_filename = 'weights_model.npy'
+weights_filename = 'weights_' + color_model + '_model.npy'
 weights_path = os.path.join(weights_dirname, weights_filename)
 
 def preprocess():
@@ -53,6 +62,7 @@ def preprocess():
     training_generator = train_data_generator.flow_from_directory(
         directory=dataset_train_dir_path,
         target_size=tuple(target_size),
+        color_mode= color_model,
         batch_size=batch_size,
         class_mode="categorical",
         subset="training"
@@ -61,6 +71,7 @@ def preprocess():
     validation_generator = train_data_generator.flow_from_directory(
         directory=dataset_train_dir_path,
         target_size=tuple(target_size),
+        color_mode= color_model,
         batch_size=batch_size,
         class_mode="categorical",
         subset="validation"
@@ -69,6 +80,7 @@ def preprocess():
     test_generator = test_data_generator.flow_from_directory(
         directory=dataset_test_dir_path,
         target_size=tuple(target_size),
+        color_mode= color_model,
         batch_size=batch_size,
         class_mode="categorical"
     )
@@ -105,7 +117,7 @@ def train():
                                kernel_size=(5, 5),
                                kernel_regularizer=regularizers.l2(0.001),
                                activation='relu',
-                               input_shape=tuple(target_size) + (3,)),
+                               input_shape=tuple(target_size) + (color_channel,)),
         # conv 2
         layers.SeparableConv2D(filters=64,
                                kernel_size=(5, 5),
