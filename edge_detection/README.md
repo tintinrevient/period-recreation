@@ -38,17 +38,17 @@ The filter of the second convolutional layer is shown below:
 The activations of filter index 3 and 5 of the second convolutional layer are shown below for landscape:
 
 <p float="left">
-    <img src="pix/landscape_tensor.png" width="300" />
-    <img src="pix/landscape_conv2d_1_filter_3.png" width="300" />
-    <img src="pix/landscape_conv2d_1_filter_5.png" width="300" />
+    <img src="pix/landscape_tensor.png" width="250" />
+    <img src="pix/landscape_conv2d_1_filter_3.png" width="250" />
+    <img src="pix/landscape_conv2d_1_filter_5.png" width="250" />
 </p>
 
 The activations of filter index 3 and 5 of the second convolutional layer are shown below for portrait:
 
 <p float="left">
-    <img src="pix/portrait_tensor.png" width="300" />
-    <img src="pix/portrait_conv2d_1_filter_3.png" width="300" />
-    <img src="pix/portrait_conv2d_1_filter_5.png" width="300" />
+    <img src="pix/portrait_tensor.png" width="250" />
+    <img src="pix/portrait_conv2d_1_filter_3.png" width="250" />
+    <img src="pix/portrait_conv2d_1_filter_5.png" width="250" />
 </p>
 
 ## References
