@@ -67,6 +67,7 @@
 * https://retro.readthedocs.io/en/latest/getting_started.html
 * https://openai.com/blog/clip/
 * https://openai.com/blog/dall-e/
+* https://www.karlsims.com/genetic-images.html
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
