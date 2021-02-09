@@ -7,8 +7,8 @@ from tensorflow import keras
 
 # Our target layer: we will visualize the filters from this layer.
 # See `model.summary()` for list of layer names, if you want to change this.
-layer_name = "separable_conv2d"
-filter_index = 2
+layer_name = "separable_conv2d_1"
+filter_index = 1
 
 # color channel
 # rgb
@@ -24,8 +24,8 @@ img_width = 96
 img_height = 96
 
 # path to the trained models
-model_file_path = os.path.join('model', 'cnn_' + color_model + '_model.h5')
-model = load_model(model_file_path)
+model_filename = os.path.join('model', 'cnn_' + color_model + '_model.h5')
+model = load_model(model_filename)
 model.summary()
 
 # Set up a model that returns the activation values for our target layer

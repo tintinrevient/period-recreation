@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 
 # Our target layer: we will visualize the filters from this layer.
 # See `model.summary()` for list of layer names, if you want to change this.
-num_of_layers = 6
-layer_index = 0
-filter_index = 2
+num_of_layers = 6 # till 'max_pooling2d_1'
+layer_index = 1 # 'separable_conv2d_1'
+filter_index = 5 # 3 or 5
 
 # color channel
 # color_model = 'rgb'
@@ -19,14 +19,13 @@ color_model = 'grayscale'
 # path to the dataset
 dataset_dir_path = os.path.join('data', 'test')
 # portrait
-# img_path = os.path.join(dataset_dir_path, 'portrait', '0a0c3e63b99b27544f2f440d5d967e2ac.jpg')
+img_path = os.path.join(dataset_dir_path, 'portrait', '0a0c3e63b99b27544f2f440d5d967e2ac.jpg')
 # landscape
-img_path = os.path.join(dataset_dir_path, 'landscape', '0a13285ce6b2f9bfe86ac48c278a7878c.jpg')
+# img_path = os.path.join(dataset_dir_path, 'landscape', '0a13285ce6b2f9bfe86ac48c278a7878c.jpg')
 
 # path to the trained models
-model_file_path = os.path.join('model', 'cnn_' + color_model + '_model.h5')
-
-model = load_model(model_file_path)
+model_filename = os.path.join('model', 'cnn_' + color_model + '_model.h5')
+model = load_model(model_filename)
 model.summary()
 
 
@@ -50,8 +49,8 @@ plt.show()
 layer_outputs = [layer.output for layer in model.layers[:num_of_layers]]
 
 # layer names
-# for layer in model.layers:
-#     print(layer.name)
+for layer in model.layers:
+    print(layer.name)
 
 activation_model = models.Model(inputs=model.input, outputs=layer_outputs)
 

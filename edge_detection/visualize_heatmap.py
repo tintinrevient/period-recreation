@@ -18,9 +18,8 @@ dataset_dir_path = os.path.join('data', 'test')
 img_path = os.path.join(dataset_dir_path, 'portrait', '0a0c3e63b99b27544f2f440d5d967e2ac.jpg')
 
 # path to the trained models
-model_file_path = os.path.join('model', 'cnn_model.h5')
-
-model = load_model(model_file_path)
+model_filename = os.path.join('model', 'cnn_model.h5')
+model = load_model(model_filename)
 model.summary()
 
 # load the image tensor
