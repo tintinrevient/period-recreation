@@ -39,6 +39,7 @@
 - [ ] Variational AutoEncoder -> Bayesian Network 脉络
 - [ ] Resnet - http://torch.ch/blog/2016/02/04/resnets.html -> learn a better embedding?
 - [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
+- [ ] Caravaggio: poses? colors? 
 
 ## Pieces
 * https://en.wikipedia.org/wiki/Kinetic_art
@@ -68,7 +69,6 @@
 * https://openai.com/blog/clip/
 * https://openai.com/blog/dall-e/
 * https://www.karlsims.com/genetic-images.html
-* Caravaggio: poses? colors? 
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
