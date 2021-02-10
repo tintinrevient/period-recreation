@@ -2,9 +2,13 @@ from keras import models
 from keras import layers
 from keras import regularizers
 from keras_preprocessing import image
+from keras.models import load_model
 import matplotlib.pyplot as plt
 import numpy as np
 import os
+import seaborn as sns
+from sklearn.metrics import confusion_matrix
+
 
 # number of training epochs
 epochs = 50
@@ -15,6 +19,15 @@ num_classes = 2
 # target size
 target_size = [96, 96]
 
+# color channel
+# rgb
+# color_channel = 3
+# color_model = 'rgb'
+
+# grayscale
+color_channel = 1
+color_model = 'grayscale'
+
 # path to the dataset
 dataset_train_dir_path = os.path.join('data', 'train')
 dataset_test_dir_path = os.path.join('data', 'test')
@@ -24,7 +37,7 @@ model_dirname = 'model'
 if not os.path.exists(model_dirname):
     os.mkdir(model_dirname)
 
-model_filename = 'cnn_model.h5'
+model_filename = 'cnn_' + color_model + '_model.h5'
 model_path = os.path.join(model_dirname, model_filename)
 
 # path to the trained models' weights
@@ -32,10 +45,16 @@ weights_dirname = 'weights'
 if not os.path.exists(weights_dirname):
     os.mkdir(weights_dirname)
 
-weights_filename = 'weights_model.npy'
+weights_filename = 'weights_' + color_model + '_model.npy'
 weights_path = os.path.join(weights_dirname, weights_filename)
 
-def preprocess():
+def preprocess(testgen_class_mode="categorical"):
+
+    # class_mode
+    # "categorical" will be 2D one-hot encoded labels
+    # "binary" will be 1D binary labels
+    # "sparse" will be 1D integer labels
+    # "input" will be images identical to input images (mainly used to work with autoencoders)
 
     train_data_generator = image.ImageDataGenerator(
         rescale=1. / 255,
@@ -53,6 +72,7 @@ def preprocess():
     training_generator = train_data_generator.flow_from_directory(
         directory=dataset_train_dir_path,
         target_size=tuple(target_size),
+        color_mode= color_model,
         batch_size=batch_size,
         class_mode="categorical",
         subset="training"
@@ -61,6 +81,7 @@ def preprocess():
     validation_generator = train_data_generator.flow_from_directory(
         directory=dataset_train_dir_path,
         target_size=tuple(target_size),
+        color_mode= color_model,
         batch_size=batch_size,
         class_mode="categorical",
         subset="validation"
@@ -69,8 +90,9 @@ def preprocess():
     test_generator = test_data_generator.flow_from_directory(
         directory=dataset_test_dir_path,
         target_size=tuple(target_size),
+        color_mode= color_model,
         batch_size=batch_size,
-        class_mode="categorical"
+        class_mode=testgen_class_mode
     )
 
     return training_generator, validation_generator, test_generator
@@ -96,6 +118,42 @@ def plot_history(history):
     plt.show()
 
 
+def plot_confusion_matrix(model_path, test_generator):
+
+    model = load_model(model_path)
+
+    total_images = test_generator.n
+    steps = total_images // batch_size
+
+    x_test, y_test = [], []
+    for step in range(steps):
+        x_one_batch, y_one_batch = test_generator.next()
+
+        x_test.extend(x_one_batch)
+        y_test.extend(y_one_batch)
+
+    print('X test size:', len(x_test))
+    print('Y test size:', len(y_test))
+
+    # [] to np.array
+    x_test, y_test = np.array(x_test), np.array(y_test)
+
+    y_true = y_test
+    y_pred = model.predict_classes(x_test)
+
+    print('Y true size:', len(y_true))
+    print('Y pred size:', len(y_pred))
+
+    matrix = confusion_matrix(y_true, y_pred)
+    plt.figure(figsize=(5, 5))
+    sns.heatmap(matrix, annot=True, fmt="d")
+    plt.title('Confusion matrix')
+    plt.ylabel('Actual label')
+    plt.xlabel('Predicted label')
+
+    plt.show()
+
+
 def train():
     training_generator, validation_generator, test_generator = preprocess()
 
@@ -105,7 +163,7 @@ def train():
                                kernel_size=(5, 5),
                                kernel_regularizer=regularizers.l2(0.001),
                                activation='relu',
-                               input_shape=tuple(target_size) + (3,)),
+                               input_shape=tuple(target_size) + (color_channel,)),
         # conv 2
         layers.SeparableConv2D(filters=64,
                                kernel_size=(5, 5),
@@ -171,6 +229,7 @@ def train():
 
     plot_history(history)
 
+    # evaluate by test dataset
     loss, accuracy = model.evaluate_generator(test_generator)
     print('\nTest accuracy:', accuracy)
 
@@ -181,7 +240,7 @@ def train():
     np.save(weights_path, model.get_weights())
 
 
-def predict(genre, img_filename):
+def predict(genre, img_filename, color_model):
 
     datagen = image.ImageDataGenerator(
         rescale=1. / 255
@@ -190,6 +249,7 @@ def predict(genre, img_filename):
     testgen = datagen.flow_from_directory(
         directory=dataset_test_dir_path,
         target_size=tuple(target_size),
+        color_mode=color_model,
         batch_size=batch_size,
         class_mode="categorical"
     )
@@ -200,9 +260,11 @@ def predict(genre, img_filename):
     for i, class_name in enumerate(class_indices):
         class_names.append(class_name)
 
+    print('Class indices:', class_indices)
+
     # load the test image
     img_path = os.path.join(dataset_test_dir_path, genre, img_filename)
-    img = image.load_img(img_path, target_size=tuple(target_size))
+    img = image.load_img(img_path, target_size=tuple(target_size), color_mode=color_model)
     img_array = image.img_to_array(img)
     img_array = img_array.reshape((1,) + img_array.shape)
     img_array = img_array / 255.
@@ -232,9 +294,11 @@ def predict(genre, img_filename):
 if __name__ == "__main__":
 
     # train the model
-    train()
+    # train()
+
+    # plot the confusion matrix
+    # training_generator, validation_generator, test_generator = preprocess(testgen_class_mode="sparse")
+    # plot_confusion_matrix(model_path=model_path, test_generator=test_generator)
 
     # predict the label given the image index
-    # predict('genre', 'mw00001.jpg') # 60% 1700
-    # predict('1600', 'mw00040.jpg') # 60% 1700
-    # predict('1700', 'mw00006.jpg') # 100% bottomwear
+    predict('landscape', '0a8f3033e279b8a7123ae7fe629b611dc.jpg', color_model) # 100% landscape

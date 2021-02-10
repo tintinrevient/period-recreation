@@ -67,6 +67,7 @@
 * https://retro.readthedocs.io/en/latest/getting_started.html
 * https://openai.com/blog/clip/
 * https://openai.com/blog/dall-e/
+* https://www.karlsims.com/genetic-images.html
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
@@ -95,6 +96,7 @@
 * http://cvpr2020.thecvf.com/
 * https://www.robots.ox.ac.uk/~vgg/
 * https://www.media.mit.edu/
+* https://www.media.mit.edu/groups/lifelong-kindergarten/overview/
 * https://audio.dev/
 * https://mitibmwatsonailab.mit.edu/
 * https://www.digitalartsonline.co.uk/
