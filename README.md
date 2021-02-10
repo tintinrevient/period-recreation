@@ -68,6 +68,7 @@
 * https://openai.com/blog/clip/
 * https://openai.com/blog/dall-e/
 * https://www.karlsims.com/genetic-images.html
+* Caravaggio: poses? colors? 
 
 ## Papers
 * https://www.robots.ox.ac.uk/~vgg/
