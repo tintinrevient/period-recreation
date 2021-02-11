@@ -40,6 +40,7 @@
 - [ ] Resnet - http://torch.ch/blog/2016/02/04/resnets.html -> learn a better embedding?
 - [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
 - [ ] Caravaggio: poses? colors? 
+- [ ] Patch loss == 2D RNN?
 
 ## Pieces
 * https://en.wikipedia.org/wiki/Kinetic_art
