@@ -139,6 +139,11 @@
 * http://human-pose.mpi-inf.mpg.de/#download
 * https://www.robots.ox.ac.uk/~vgg/data/pose/index.html#downloadlink
 * https://quickposes.com/en
+* https://posetrack.net/
+* http://jhmdb.is.tue.mpg.de/
+* http://dreamdragon.github.io/PennAction/
+* https://github.com/Jeff-sjtu/CrowdPose
+* https://bensapp.github.io/flic-dataset.html
 * http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/
 * https://graphics.tu-bs.de/people-snapshot
 * http://buff.is.tue.mpg.de/
