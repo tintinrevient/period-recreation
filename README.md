@@ -40,7 +40,7 @@
 - [ ] Resnet - http://torch.ch/blog/2016/02/04/resnets.html -> learn a better embedding?
 - [ ] reinforcement learning -> select_action() + update_q() -> discriminator?
 - [ ] Caravaggio: poses? colors? 
-- [ ] Caravaggio architecture: (1) CycleGAN with Patch NCE loss; (2) 2D RNN; (3) Pre-trained Pose CNN model with Cycle loss?
+- [ ] Caravaggio architecture: (1) CycleGAN with Patch NCE loss; (2) 2D RNN with Cycle loss; (3) Pre-trained Pose CNN model with Cycle loss?
 - [ ] Caravaggio dataset: (1) Nude paintings w/ or w/o Style transfer; (2) Baroque paintings w/ or w/o Style transfer; (3) Sketch to body boxes?
 
 ## Pieces
