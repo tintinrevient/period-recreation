@@ -159,6 +159,9 @@
 * http://robotics.csie.ncku.edu.tw/Databases/FaceDetect_PoseEstimate.htm#O
 * https://www.cs.tau.ac.il/~wolf/ytfaces/
 * http://www.voxforge.org/
+* http://dcase.community/challenge2020/task-acoustic-scene-classification
+* https://www.kaggle.com/c/acoustic-scene-2018/data?select=X_train.npy
+* https://github.com/CSAILVision/places365
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
