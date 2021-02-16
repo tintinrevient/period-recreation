@@ -164,6 +164,7 @@
 * http://dcase.community/challenge2020/task-acoustic-scene-classification
 * https://www.kaggle.com/c/acoustic-scene-2018/data?select=X_train.npy
 * https://github.com/CSAILVision/places365
+* http://people.vision.caltech.edu/~mronchi/projects/Cocoa/
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
