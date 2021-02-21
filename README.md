@@ -169,6 +169,7 @@
 * https://dbcollection.readthedocs.io/en/latest/datasets/leeds_sports_pose.html
 * https://jonathantompson.github.io/
 * https://jonathantompson.github.io/flic_plus.htm
+* https://bensapp.github.io/flic-dataset.html
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
