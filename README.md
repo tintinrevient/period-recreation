@@ -167,6 +167,8 @@
 * http://people.vision.caltech.edu/~mronchi/projects/Cocoa/
 * http://host.robots.ox.ac.uk/pascal/VOC/voc2007/
 * https://dbcollection.readthedocs.io/en/latest/datasets/leeds_sports_pose.html
+* https://jonathantompson.github.io/
+* https://jonathantompson.github.io/flic_plus.htm
 
 ## Algorithms
 * Tensorflow searches in the parameter space: gradient descent, simulated annealing, genetic algorithms.
